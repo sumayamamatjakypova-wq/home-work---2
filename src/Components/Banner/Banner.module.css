@@ -1,0 +1,113 @@
+.banner {
+  width: 100%;
+  background-color: #f2f0f1;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  max-width: 600px;
+  padding: 60px 0;
+}
+
+.title {
+  font-family: 'Integral CF', sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
+}
+
+.ctaButton {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 16px 54px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 62px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 48px;
+}
+
+.ctaButton:hover {
+  background-color: #333333;
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 32px;
+}
+
+.statItem:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.statNumber {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.statLabel {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.visual {
+  flex-grow: 1;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #e5e5e5;
+  position: relative;
+}
+
+.sparkleLeft {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 44px;
+  color: #000000;
+}
+
+.sparkleRight {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  font-size: 76px;
+  color: #000000;
+}

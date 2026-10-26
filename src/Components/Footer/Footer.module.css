@@ -1,0 +1,164 @@
+.footer {
+  background-color: #f0f0f0;
+  padding-top: 140px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.newsletter {
+  background-color: #000000;
+  border-radius: 20px;
+  padding: 36px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: -90px;
+  left: 16px;
+  right: 16px;
+  max-width: 1208px;
+  margin: 0 auto;
+}
+
+.newsletterTitle {
+  color: #ffffff;
+  font-family: 'Integral CF', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+  max-width: 550px;
+}
+
+.newsletterForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.newsletterInput {
+  padding: 12px 16px;
+  border-radius: 62px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.newsletterBtn {
+  padding: 12px 16px;
+  border-radius: 62px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.brandInfo {
+  max-width: 250px;
+}
+
+.logo {
+  font-family: 'Integral CF', sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.brandDesc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 24px;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+}
+
+.socialIcon {
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.linksGrid {
+  display: flex;
+  gap: 64px;
+}
+
+.linkColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.columnTitle {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.linkColumn a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.linkColumn a:hover {
+  color: #000000;
+}
+
+.bottomBar {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.payments {
+  display: flex;
+  gap: 12px;
+}
+
+.cardBadge {
+  background-color: #ffffff;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
